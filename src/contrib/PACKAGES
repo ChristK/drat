@@ -21,3 +21,13 @@ Suggests: git2r, knitr
 License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
+
+Package: submitr
+Version: 0.3.0.9000
+Depends: R (>= 3.5.0)
+Imports: learnr, googledrive, googlesheets4 (>= 0.2.0), jsonlite, shiny, knitr, clipr,
+         rclipboard
+Suggests: rmarkdown
+License: MIT + file LICENSE
+MD5sum: f7584659277f3d61e6d08d9ca4c66723
+NeedsCompilation: no
