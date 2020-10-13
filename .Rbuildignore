@@ -1,8 +1,0 @@
-^.*\.Rproj$
-^\.Rproj\.user$
-.travis.yml
-vignettes/Makefile
-testpackages
-drat_.*\.tar\.gz$
-^docs
-^docs-src
