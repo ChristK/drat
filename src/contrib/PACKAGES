@@ -56,15 +56,6 @@ MD5sum: bcb4f623a0a9c5b297fb818346cad9a4
 NeedsCompilation: yes
 
 Package: CKteachR
-Version: 0.0.1.9000
-Depends: R (>= 3.5.0)
-Imports: data.table (>= 1.13.0), learnr (>= 0.10.1), gradethis (>= 0.1.0), googlesheets4
-          (>= 0.2.0), submitr (>= 0.3.0.9000), encryptr (>= 0.1.3), rstudioapi (>= 0.11)
-License: GPL-3
-MD5sum: 6932f261fb791ece5aa4fecffbb0e3f9
-NeedsCompilation: no
-
-Package: CKteachR
 Version: 0.0.3.9000
 Depends: R (>= 3.5.0)
 Imports: data.table (>= 1.13.0), learnr (>= 0.10.1), gradethis (>= 0.1.0), googlesheets4
@@ -130,15 +121,6 @@ Imports: methods
 Suggests: bit64, curl, R.utils, xts, nanotime, zoo, yaml, knitr, rmarkdown
 License: MPL-2.0 | file LICENSE
 MD5sum: 20013730669ebe603c3c0197f35374e2
-NeedsCompilation: yes
-
-Package: digest
-Version: 0.6.25
-Depends: R (>= 3.1.0)
-Imports: utils
-Suggests: tinytest, knitr, rmarkdown
-License: GPL (>= 2)
-MD5sum: 36da6c97677766a8901b7b8f06f51daa
 NeedsCompilation: yes
 
 Package: digest
@@ -519,16 +501,6 @@ MD5sum: dbe52d014af9f67619fd15aa2f5082fa
 NeedsCompilation: yes
 
 Package: rmarkdown
-Version: 2.4
-Depends: R (>= 3.0)
-Imports: tools, utils, knitr (>= 1.22), yaml (>= 2.1.19), htmltools (>= 0.3.5), evaluate
-          (>= 0.13), jsonlite, mime, tinytex (>= 0.11), xfun, methods, stringr (>= 1.2.0)
-Suggests: shiny (>= 0.11), tufte, testthat, digest, dygraphs, tibble, fs, rsconnect
-License: GPL-3
-MD5sum: 1661d5ad9057e673590a10cef9cd6aae
-NeedsCompilation: no
-
-Package: rmarkdown
 Version: 2.5
 Depends: R (>= 3.0)
 Imports: tools, utils, knitr (>= 1.22), yaml (>= 2.1.19), htmltools (>= 0.3.5), evaluate
@@ -593,6 +565,16 @@ Imports: glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)
 Suggests: covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat
 License: GPL-2 | file LICENSE
 MD5sum: 1c3e0267af33d829b842de9fa68853e2
+NeedsCompilation: no
+
+Package: submitr
+Version: 0.3.0.9000
+Depends: R (>= 3.5.0)
+Imports: learnr, googledrive, googlesheets4 (>= 0.2.0), jsonlite, shiny, knitr, clipr,
+          rclipboard
+Suggests: rmarkdown
+License: MIT + file LICENSE
+MD5sum: f7584659277f3d61e6d08d9ca4c66723
 NeedsCompilation: no
 
 Package: sys
